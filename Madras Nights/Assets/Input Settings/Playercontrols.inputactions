@@ -1,51 +1,33 @@
 {
     "version": 1,
-    "name": "Gameplay",
+    "name": "Playercontrols",
     "maps": [
         {
             "name": "Gamepad",
-            "id": "f80931b1-d9db-4332-a0b1-53e6b5d47330",
+            "id": "79916631-e11f-4a2b-abb2-09c9bdd04652",
             "actions": [
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "2d2f26fa-2844-4e36-a466-aa3cfed62b59",
+                    "id": "64385a32-e1df-4d5d-97b0-78fcff259be9",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "326c1cf4-d370-4bb9-ba42-7dfb83cdd702",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Kick",
                     "type": "Button",
-                    "id": "b4ada9b8-020d-40e1-acdb-14348d80f2e0",
+                    "id": "1ad21595-66a5-43fa-9b96-a1ae6c372cc5",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Punch",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "f4c280f1-c137-4b43-a3a4-44b281b5a81d",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Block",
-                    "type": "Button",
-                    "id": "c188ef64-e67c-4f7c-9ba1-90224572a30b",
+                    "id": "bf3909b4-bf60-43cd-b68a-bad6ec885e8f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -55,8 +37,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "78314817-2463-4956-a81b-26665df0ed3b",
-                    "path": "<XInputController>/leftStick",
+                    "id": "bcc0d194-e0a3-4529-bed2-a5e441fdf9aa",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -66,18 +48,7 @@
                 },
                 {
                     "name": "",
-                    "id": "fe0c16ed-21d0-439d-a372-f59e760a9867",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f9e930cd-6b62-451f-9ede-d4421e0f350d",
+                    "id": "104f4d87-ff8b-45d1-8b1b-3ee0f0014113",
                     "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
@@ -88,23 +59,12 @@
                 },
                 {
                     "name": "",
-                    "id": "247d6588-5ff3-4293-9a1f-dfc9caeb7391",
-                    "path": "<Gamepad>/buttonWest",
+                    "id": "1b1d47a4-d888-4a5b-ad14-55b2ab01e97d",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Punch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6952bf3b-b4bb-4d0a-ac7b-7d9816f9a382",
-                    "path": "<Gamepad>/buttonEast",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Block",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -112,48 +72,30 @@
         },
         {
             "name": "Keyboard",
-            "id": "2a8c6438-1bbd-4716-ad7b-9c27e4ae93f4",
+            "id": "eaf3b24e-5658-4bdd-aea1-8a8e342904d6",
             "actions": [
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "90dab904-f473-4b40-99fe-f517c2d87c06",
+                    "id": "5ab838db-f2a2-40ae-8d0c-1df51d6656f3",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "8ceafb8f-a92c-485b-8566-f530dd026da7",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Punch",
-                    "type": "Button",
-                    "id": "d159a28f-a12b-439c-9ab5-12203f4040ef",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Kick",
                     "type": "Button",
-                    "id": "42e6d9dd-be53-4e33-bd0a-423ee16a93e6",
+                    "id": "0d1fec31-d296-4643-9357-2aacc817e3a7",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Block",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "8531bfba-6a61-41f5-9647-368dee04bb0b",
+                    "id": "bc64da7b-146e-4bce-843e-15d978be55c3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -163,7 +105,7 @@
             "bindings": [
                 {
                     "name": "2D Vector",
-                    "id": "b567e06b-c32b-4671-975d-b10101c99b95",
+                    "id": "3cc18ee2-8b26-401b-8c70-1532e95ec001",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -174,8 +116,8 @@
                 },
                 {
                     "name": "up",
-                    "id": "dc927431-67f6-4fd4-80a6-9a04c984953a",
-                    "path": "<Keyboard>/w",
+                    "id": "802dcd45-b941-4c5b-aafb-e7c596403255",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -185,8 +127,8 @@
                 },
                 {
                     "name": "down",
-                    "id": "4a26a8da-3686-42df-be3e-8e34cfc73645",
-                    "path": "<Keyboard>/s",
+                    "id": "895c9f05-76ea-44e6-9abe-531a1d2e3689",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -196,7 +138,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "2032dc5c-c290-488b-81c4-e7d5fd3521e1",
+                    "id": "d19eaac6-32de-4205-9d4f-d3eef82937bd",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -207,7 +149,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "7ab09a89-89af-45b3-a783-58acc1a860a5",
+                    "id": "7d14eb58-8fea-468e-bc75-aa2caca61ee4",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -218,29 +160,7 @@
                 },
                 {
                     "name": "",
-                    "id": "2799c943-89c2-41bb-bb3b-e3dce699376a",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "60870927-733f-4ff9-9497-7cf2447da7e6",
-                    "path": "<Keyboard>/j",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Punch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "84e3e3c8-20b1-44ec-9322-293d3d52997f",
+                    "id": "8e3881d3-e4c7-49d9-bb85-9727bcec145d",
                     "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
@@ -251,12 +171,12 @@
                 },
                 {
                     "name": "",
-                    "id": "659fd825-bc13-4750-980f-94ac92bdd1bc",
-                    "path": "<Keyboard>/l",
+                    "id": "57c2029d-6ba5-465b-9269-c093c9c88643",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Block",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
